@@ -127,9 +127,9 @@ tensorboard --logdir=./checkpoints_classifier
 2.  运行以下命令：
 
 ```bash
-python main.py --mode test --dataroot_A "./test_A" --result_dir "./results" --load_epoch 200 --device "cuda:0"
+python main.py --mode test --dataroot "./test_A" --result_dir "./results" --load_epoch 200 --device "cuda:0"
 ```
-- `--dataroot_A`: 指向测试图像所在的文件夹。
+- `--dataroot`: 指向测试图像所在的文件夹。
 - `--result_dir`: 指定转换后图像的保存位置。
 
 ## 📄 项目结构
